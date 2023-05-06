@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(to right, #6c7187,#6c5c7b);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.box{
+    color:white;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to bottom,#7fffd4, #1aa878);
+    padding: 15px;
+    border-radius:15px;
+    width:30%;
+}
+
+
+<input type="submit" value="Enviar formulário" id="enviar">
