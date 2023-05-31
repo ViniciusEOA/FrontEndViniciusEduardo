@@ -7,13 +7,14 @@ header{
     border-radius: 10px;
     width:20%;
     height: 20%;
+    padding:20px
 }
 
 @font-face {
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background-color: #4d3f57;
+    background-image: linear-gradient(#362c3d, #4d3f57);
     margin:0%;
     align-content: flex;
 }
@@ -26,3 +27,55 @@ body{
     color:#b8abc0;
 }
 p{align-self: center;}
+
+form{margin:40px 0;
+   }
+
+form label, form p{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    align-self: center;
+}
+.copyright{
+    position:relative;
+    top: 5%;
+    left:40%;
+    transform: translate(-10%, -200%);
+    font-size: 50px;
+    color:#b8abc0;
+}
+#logop{
+    border-radius: 10px;
+    width:8%;
+    height: 8%;
+    padding:20px
+}
+.input-padrao{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+main{width:940px;
+margin: auto;}
+
+.checkbox{margin:20px 0}
+
+.enviar{width:40%;
+padding: 15px 0;
+background:#631b8d;
+color:#b8abc0;
+font-weight: bold;
+font-size: 18px;
+border:none;
+border-radius:5px;
+transition:1s all;
+cursor:pointer;}
+
+.enviar:hover{
+    background:#3f115a;
+    transform:scale(1.2);
+}
+    
