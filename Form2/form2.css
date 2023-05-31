@@ -1,0 +1,28 @@
+header{
+    background-image: linear-gradient(to bottom, #32203c, #631b8d) ;
+    padding: 20px;
+    position:initial;
+}
+#logo{
+    border-radius: 10px;
+    width:20%;
+    height: 20%;
+}
+
+@font-face {
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: #4d3f57;
+    margin:0%;
+    align-content: flex;
+}
+.tituloprincipal{
+    position: absolute;
+    top: 5%;
+    left:40%;
+    transform: translate(-10%, 50%);
+    font-size: 50px;
+    color:#b8abc0;
+}
+p{align-self: center;}
