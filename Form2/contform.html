@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title> Formulário - Modelo 2 </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contform.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="vprodlght.png">
+      <h1 class="tituloprincipal">VP⨀ CORPORATION</h1>
+      <nav>
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trabalho.html">Trabalhos</a></li>
+            <li><a href="form2.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br>
+      <form>
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Nome e Sobrenome" required>
+        <br><br>
+        <label for="email"> Email </label>
+        <input type="text" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <br><br>
+        <label for="numero">Numero  </label>
+        <input type="number" name="numero" id="numero" class="input-padrao" placeholder="(XX) XXXXX-XXXX  " required>
+        <br><br>
+        <label for="mensagem"> Mensagem </label>
+        <textarea cols="70" rows="10" id="mensagem"  placeholder=" Digite seu texto aqui! " required></textarea>
+        <section><P>Como prefere nosso contato?</P> 
+            <label for="email"> Email </label>
+            <input type="radio" name="email" id="radio-email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+            <label for="numero">Numero  </label>
+            <input type="radio" name="numero" id="radio-numero" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+            <label for="whatsapp">Whatsapp </label>
+            <input type="radio" name="whatsapp" id="radio-whatsapp" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+        </section>
+        <section>
+            <p>Qual horario deseja ser atendido?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </section>
+        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+        <input type="submit" value="Enviar Formulário" class="enviar">
+    </form>
+    </main>
+    <footer> 
+        <p class="copyright">VPROD ©</p>
+        <img id="logop" src="vprodlght.png">
+    </footer>
+  </body>
