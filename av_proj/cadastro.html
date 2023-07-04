@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVANTIA - Cadastro</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html"><img class="logo" src="image/AVSMP.png"></a>
+        <nav class="cabecalink">
+            <a href="entrar.html">Entrar</a>
+            <a href="login.html">Login</a>
+            <a href="cadastro.html" class="linkativo">Cadastro</a>
+        </nav> 
+    </header>
+    <main>
+        <form>
+            <p>Olá, espero que goste do nosso servidor!</p>
+            <br>
+            <p>Informe seu nickname para que possamos lhe adicionar ao sistema e outros dados para contato.</p>
+            <br><br>
+
+            <label for="nickname">Insira o seu nick do Aternos</label>
+            <br>
+
+            <input type="text" name="nick" id="nickname" class="input-padrao" placeholder="Nick:" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="text" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+            <br><br>
+
+            <label for="numero">Número</label>
+            <br>
+            <input type="number" name="numero" id="numero" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+            <br><br>
+
+            <section>    
+                <label for="lembrar"><input type="radio" name="contato" value="lem" id="lembrar" aria-checked="mixed">Lembre de mim</label>
+            </section>
+            <br><br>
+        	
+            <input type="submit" value="Cadastrar" class="enviar">
+        </form>
+    </main>
+    <footer>
+        
+        <a href="home.html"><img class="copy" src="image/avantianether.png"></a>
+        <p class="copyright">© Everton & Vinicius</p>
+        
+    </footer>
+</body>
+</html>

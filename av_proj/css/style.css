@@ -1,0 +1,113 @@
+body{
+    font-family:'PressStart2P';
+    text-align: justify;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color:#fff;
+    margin:auto;
+    height:100%;
+}
+
+@font-face {
+    font-family:'PressStart2P';
+    src: url(PressStart2P-Regular.ttf) format('truetype')
+}
+
+header{
+    padding: 20px 20px;
+    background-image: url(../image/ceunght.png);
+    font-size: large;
+    overflow:hidden;
+    text-shadow: none;
+}
+main{
+    background-image: url(../image/ceuday.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    margin: auto;
+}
+footer{
+    background-image: url(../image/stone.png);
+    display:flex;
+    text-align:center;
+    padding: 20px;
+}
+footer p{
+    margin:auto;
+}
+.logo{
+    height:76px;
+    width: 504px;
+}
+
+header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 25px;
+    border-radius: 50px;
+ }
+ header a:hover {
+    background-color: #00000060;
+    color: black;
+  }
+  .cabecalink {
+    float: right;
+  }
+ .linkativo{
+    background-color: #2d415c7c;
+    color: white;
+  }
+  .apres{
+    display:flex;
+    text-align:justify;
+    border: 10px 10px;
+  }
+ .prnt{
+    height: 360px;
+    width: 640px;
+    border: 5px #000 groove;
+    border-radius: 10px;
+ }
+ .apres p{
+    text-align: center;
+    font-size: 50px;
+    margin:auto;
+ }
+ .come{
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+button, .enviar, input{
+    border-radius: 50px;
+    background-image:linear-gradient( to bottom,#00bdfc,#00faa7) ;
+    opacity: 0.7;
+    transform: scale(1.3);
+    color:white;
+    font-family:'PressStart2P';
+    
+
+ }
+button:hover, .enviar:hover{
+    transform: scale(1.6);
+ }
+ .copy{
+    height:114px;
+    width: 756px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+ }
+ form {
+    font-size: x-large;
+    padding: 20px;
+    
+    
+}
+input{
+    border-left: 20px;
+}
