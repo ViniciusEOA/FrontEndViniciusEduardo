@@ -53,6 +53,10 @@
         font-size: 25px;
     }
     .categ{
-        font-size: 50€;
+        font-size: 50%;
+    }
+    .imgind{
+        width: 20%;
+        height: 20%;
     }
 }
