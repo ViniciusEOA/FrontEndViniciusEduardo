@@ -42,18 +42,18 @@
     transform: scale(1.2);
     color: #fafafa;
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:800px){
     .ap{
         display: contents;
-        width: 25%;
-        height: 25%;
+        width: 20%;
+        height: 20%;
         font-size: 20px;
     }
     .titulo{
         font-size: 25px;
     }
     .categ{
-        font-size: 50%;
+        font-size: 40%;
     }
     .imgind{
         .imgind{
