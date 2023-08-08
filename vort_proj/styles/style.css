@@ -1,0 +1,34 @@
+@import url(header.css);
+@import url(aba.css);
+:root{
+    --cor-de-fundo:#383838;
+    --branco:#282828;
+    --cinza:#303030;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Wallpoet';
+    line-height: 1.2;
+    
+}
+@font-face {
+    font-family: 'Wallpoet';
+    src: url(Wallpoet-Regular.ttf) format('truetype');
+    size-adjust: 150%;
+}
+a{
+    text-decoration: none;
+    text-decoration-color:unset;
+}
+footer{
+    background-color:var(--branco);
+    margin-top: 20px;
+}
+.footerimg{
+    width: 10%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
