@@ -46,7 +46,7 @@
     color: #fafafa;
 }
 .txtexp{
-    font-size: x-large;
+    font-size: 35px;
     color: #fff;
     display: block;
     margin-left: auto;
@@ -76,6 +76,9 @@
         align-self: auto;
     }
     .titulo{
+        font-size: 20px;
+    }
+    .txtexp{
         font-size: 20px;
     }
 }
