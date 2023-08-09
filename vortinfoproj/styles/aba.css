@@ -70,12 +70,12 @@
         display: contents;
         width: 25%;
         height: 25;
-        font-size: 15px;
+        font-size: 10px;
     }.imgind, .imgexp{
         width: 60%;
         align-self: auto;
     }
     .titulo{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
