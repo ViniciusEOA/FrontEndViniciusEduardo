@@ -42,13 +42,33 @@
     transform: scale(1.2);
     color: #fafafa;
 }
+.txtexp{
+    font-size: x-large;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    text-align:justify;
+    padding: 20px;
+}
+.exp{
+    margin:auto
+}
+.imgexp{
+    border-radius: 30px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (max-width:850px){
-    .ap{
+    .ap, .exp{
         display: contents;
         width: 25%;
         height: 25;
         font-size: 20px;
-    }.imgind{
+    }.imgind, .imgexp{
         width: fit-content;
         height: fit-content;
     }

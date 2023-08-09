@@ -60,7 +60,10 @@
     .conteiner_tit{
         display: block;
     }
-    
+    .cab_menu{
+        width: 150%;
+        
+    }
 }
 
 @media screen and (min-width:1024px) {
