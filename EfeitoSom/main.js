@@ -1,7 +1,7 @@
 window.alert("Ta fununciando")
 
 function tocaSomAplausos(){
-    document.getElementById('#som_tecla_aplausos').play();
+    document.getElementById('#som_tecla_aplausos').play()
 }
 function tocaSomVaia(){
     document.getElementById('#som_tecla_vaia').play();
