@@ -28,12 +28,12 @@ function tocaSomVitoria(){
     document.getElementById('#som_tecla_vitoria').play();
 }
 
-document.querySelector('tecla_aplausos').onclick = tocaSomAplausos;
-document.querySelector('tecla_vaia').onclick = tocaSomVaia;
-document.querySelector('tecla_risada').onclick = tocaSomRisada;
-document.querySelector('tecla_errado').onclick = tocaSomErrado;
-document.querySelector('tecla_grilo').onclick = tocaSomGrilo;
-document.querySelector('tecla_tambores').onclick = tocaSomTambores;
-document.querySelector('tecla_trombeta').onclick = tocaSomTrombeta;
-document.querySelector('tecla_dinheiro').onclick = tocaSomDinheiro;
-document.querySelector('tecla_vitoria').onclick = tocaSomVitoria;
+document.querySelector('.tecla_aplausos').onclick = tocaSomAplausos;
+document.querySelector('.tecla_vaia').onclick = tocaSomVaia;
+document.querySelector('.tecla_risada').onclick = tocaSomRisada;
+document.querySelector('.tecla_errado').onclick = tocaSomErrado;
+document.querySelector('.tecla_grilo').onclick = tocaSomGrilo;
+document.querySelector('.tecla_tambores').onclick = tocaSomTambores;
+document.querySelector('.tecla_trombeta').onclick = tocaSomTrombeta;
+document.querySelector('.tecla_dinheiro').onclick = tocaSomDinheiro;
+document.querySelector('.tecla_vitoria').onclick = tocaSomVitoria;
