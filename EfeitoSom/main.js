@@ -1,31 +1,29 @@
-window.alert("Ta fununciando")
-
 function tocaSomAplausos(){
-    document.getElementById('#som_tecla_aplausos').play()
+    document.querySelector('#som_tecla_aplausos').play()
 }
 function tocaSomVaia(){
-    document.getElementById('#som_tecla_vaia').play();
+    document.querySelector('#som_tecla_vaia').play()
 }
 function tocaSomRisada(){
-    document.getElementById('#som_tecla_risada').play();
+    document.querySelector('#som_tecla_risada').play();
 }
 function tocaSomErrado(){
-    document.getElementById('#som_tecla_errado').play();
+    document.querySelector('#som_tecla_errado').play();
 }
 function tocaSomGrilo(){
-    document.getElementById('#som_tecla_grilo').play();
+    document.querySelector('#som_tecla_grilo').play();
 }
 function tocaSomTambores(){
-    document.getElementById('#som_tecla_tambores').play();
+    document.querySelector('#som_tecla_tambores').play();
 }
 function tocaSomTrombeta(){
-    document.getElementById('#som_tecla_trombeta').play();
+    document.querySelector('#som_tecla_trombeta').play();
 }
 function tocaSomDinheiro(){
-    document.getElementById('#som_tecla_dinheiro').play();
+    document.querySelector('#som_tecla_dinheiro').play();
 }
 function tocaSomVitoria(){
-    document.getElementById('#som_tecla_vitoria').play();
+    document.querySelector('#som_tecla_vitoria').play();
 }
 
 document.querySelector('.tecla_aplausos').onclick = tocaSomAplausos;
