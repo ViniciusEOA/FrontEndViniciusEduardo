@@ -1,0 +1,31 @@
+body{
+    background: url(../images/papel.jpg);
+    background-size: cover;
+    font-family: marroz;
+    font-weight: 666;
+}
+@font-face {
+    font-family: marroz;
+    src: url(./Zeyada-Regular.ttf);
+}
+h1{
+    font-size: 66px;
+    color: rgb(119, 0, 0);
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+button{
+    display: block;
+    font-size: 30px;
+}
+section{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+  
